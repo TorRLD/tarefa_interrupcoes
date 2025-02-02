@@ -23,7 +23,7 @@
 #define NUM_PIXELS          25
 #define WS2812_PIN          7
 
-#define LED_RGB_VERMELHO_PIN  12   // LED vermelho do LED RGB
+#define LED_RGB_VERMELHO_PIN  13   // LED vermelho do LED RGB
 #define BOTAO_A_PIN           5    // Botão A (incrementa)
 #define BOTAO_B_PIN           6    // Botão B (decrementa)
 
@@ -32,7 +32,7 @@
 
 #define COR_WS2812_R      0   // Intensidade do vermelho na matriz
 #define COR_WS2812_G      0   // Intensidade do verde na matriz
-#define COR_WS2812_B      200 // Intensidade do azul na matriz
+#define COR_WS2812_B      80 // Intensidade do azul na matriz
 
 // ================================
 // VARIÁVEIS GLOBAIS
@@ -161,21 +161,22 @@ void definir_leds(uint8_t r, uint8_t g, uint8_t b) {
  */
 void atualizar_buffer_com_digito(int digito) {
     for (int linha = 0; linha < 5; linha++) {
-        // Inverte o índice da linha para que o padrão não fique de cabeça para baixo
+        // Inverte verticalmente para corrigir a orientação (se necessário)
         int linha_fisica = 4 - linha;
         for (int coluna = 0; coluna < 5; coluna++) {
             int indice;
-            // Se a linha física for ímpar, invertemos a ordem das colunas (arranjo serpentina)
-            if (linha_fisica % 2 == 1) {
+            // Se a linha física estiver invertida na fiação, invertemos a ordem das colunas
+            if (linha_fisica == 0 || linha_fisica == 2) {
                 indice = linha_fisica * 5 + (4 - coluna);
             } else {
                 indice = linha_fisica * 5 + coluna;
             }
-            // Mapeia o padrão do dígito para o buffer
             buffer_leds[indice] = padroes_digitos[digito][linha][coluna];
         }
     }
 }
+
+
 
 
 
