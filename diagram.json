@@ -13,133 +13,203 @@
     {
       "type": "wokwi-neopixel",
       "id": "rgb1",
-      "top": 205.3,
-      "left": -58.4,
-      "rotate": 180,
+      "top": 355.4,
+      "left": 72.3,
+      "rotate": 0,
       "attrs": {}
     },
     {
       "type": "wokwi-neopixel",
       "id": "rgb2",
-      "top": 205.3,
-      "left": -29.6,
-      "rotate": 180,
+      "top": 355.4,
+      "left": 43.5,
+      "rotate": 0,
       "attrs": {}
     },
     {
       "type": "wokwi-neopixel",
       "id": "rgb3",
-      "top": 205.3,
-      "left": -0.8,
-      "rotate": 180,
+      "top": 355.4,
+      "left": 14.7,
+      "rotate": 0,
       "attrs": {}
     },
     {
       "type": "wokwi-neopixel",
       "id": "rgb4",
-      "top": 205.3,
-      "left": 28,
-      "rotate": 180,
+      "top": 355.4,
+      "left": -14.1,
+      "rotate": 0,
       "attrs": {}
     },
     {
       "type": "wokwi-neopixel",
       "id": "rgb5",
-      "top": 205.3,
-      "left": 56.8,
+      "top": 355.4,
+      "left": -42.9,
+      "rotate": 0,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-neopixel",
+      "id": "rgb6",
+      "top": 326.6,
+      "left": 72.3,
       "rotate": 180,
       "attrs": {}
     },
-    { "type": "wokwi-neopixel", "id": "rgb6", "top": 234.1, "left": -58.4, "attrs": {} },
-    { "type": "wokwi-neopixel", "id": "rgb7", "top": 234.1, "left": -29.6, "attrs": {} },
-    { "type": "wokwi-neopixel", "id": "rgb8", "top": 234.1, "left": -0.8, "attrs": {} },
-    { "type": "wokwi-neopixel", "id": "rgb9", "top": 234.1, "left": 28, "attrs": {} },
-    { "type": "wokwi-neopixel", "id": "rgb10", "top": 234.1, "left": 56.8, "attrs": {} },
+    {
+      "type": "wokwi-neopixel",
+      "id": "rgb7",
+      "top": 326.6,
+      "left": 43.5,
+      "rotate": 180,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-neopixel",
+      "id": "rgb8",
+      "top": 326.6,
+      "left": 14.7,
+      "rotate": 180,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-neopixel",
+      "id": "rgb9",
+      "top": 326.6,
+      "left": -14.1,
+      "rotate": 180,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-neopixel",
+      "id": "rgb10",
+      "top": 326.6,
+      "left": -42.9,
+      "rotate": 180,
+      "attrs": {}
+    },
     {
       "type": "wokwi-neopixel",
       "id": "rgb11",
-      "top": 262.9,
-      "left": -58.4,
-      "rotate": 270,
+      "top": 297.8,
+      "left": 72.3,
+      "rotate": 90,
       "attrs": {}
     },
     {
       "type": "wokwi-neopixel",
       "id": "rgb12",
-      "top": 262.9,
-      "left": -29.6,
-      "rotate": 270,
+      "top": 297.8,
+      "left": 43.5,
+      "rotate": 90,
       "attrs": {}
     },
     {
       "type": "wokwi-neopixel",
       "id": "rgb13",
-      "top": 262.9,
-      "left": -0.8,
-      "rotate": 270,
+      "top": 297.8,
+      "left": 14.7,
+      "rotate": 90,
       "attrs": {}
     },
     {
       "type": "wokwi-neopixel",
       "id": "rgb14",
-      "top": 262.9,
-      "left": 28,
-      "rotate": 270,
+      "top": 297.8,
+      "left": -14.1,
+      "rotate": 90,
       "attrs": {}
     },
     {
       "type": "wokwi-neopixel",
       "id": "rgb15",
-      "top": 262.9,
-      "left": 56.8,
-      "rotate": 270,
+      "top": 297.8,
+      "left": -42.9,
+      "rotate": 90,
       "attrs": {}
     },
-    { "type": "wokwi-neopixel", "id": "rgb16", "top": 291.7, "left": -58.4, "attrs": {} },
-    { "type": "wokwi-neopixel", "id": "rgb17", "top": 291.7, "left": -29.6, "attrs": {} },
-    { "type": "wokwi-neopixel", "id": "rgb18", "top": 291.7, "left": -0.8, "attrs": {} },
-    { "type": "wokwi-neopixel", "id": "rgb19", "top": 294.1, "left": 27.8, "attrs": {} },
+    {
+      "type": "wokwi-neopixel",
+      "id": "rgb16",
+      "top": 269,
+      "left": 72.3,
+      "rotate": 180,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-neopixel",
+      "id": "rgb17",
+      "top": 269,
+      "left": 43.5,
+      "rotate": 180,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-neopixel",
+      "id": "rgb18",
+      "top": 269,
+      "left": 14.7,
+      "rotate": 180,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-neopixel",
+      "id": "rgb19",
+      "top": 266.6,
+      "left": -13.9,
+      "rotate": 180,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-neopixel",
+      "id": "rgb20",
+      "top": 266.6,
+      "left": -42.7,
+      "rotate": 180,
+      "attrs": {}
+    },
     {
       "type": "wokwi-neopixel",
       "id": "rgb21",
-      "top": 320.5,
-      "left": -58.4,
-      "rotate": 270,
+      "top": 240.2,
+      "left": 72.3,
+      "rotate": 90,
       "attrs": {}
     },
     {
       "type": "wokwi-neopixel",
       "id": "rgb22",
-      "top": 320.5,
-      "left": -29.6,
-      "rotate": 270,
+      "top": 240.2,
+      "left": 43.5,
+      "rotate": 90,
       "attrs": {}
     },
     {
       "type": "wokwi-neopixel",
       "id": "rgb23",
-      "top": 320.5,
-      "left": -0.8,
-      "rotate": 270,
+      "top": 240.2,
+      "left": 14.7,
+      "rotate": 90,
       "attrs": {}
     },
     {
       "type": "wokwi-neopixel",
       "id": "rgb24",
-      "top": 320.5,
-      "left": 28,
-      "rotate": 270,
+      "top": 240.2,
+      "left": -14.1,
+      "rotate": 90,
       "attrs": {}
     },
     {
       "type": "wokwi-neopixel",
       "id": "rgb25",
-      "top": 320.5,
-      "left": 56.8,
-      "rotate": 270,
+      "top": 240.2,
+      "left": -42.9,
+      "rotate": 90,
       "attrs": {}
     },
-    { "type": "wokwi-neopixel", "id": "rgb20", "top": 294.1, "left": 56.6, "attrs": {} },
     {
       "type": "wokwi-pushbutton",
       "id": "btn1",
@@ -220,7 +290,7 @@
     [ "btn2:2.l", "pico:GND.6", "green", [ "h-86.4", "v67.4" ] ],
     [ "rgb26:R", "r1:1", "green", [ "v0" ] ],
     [ "rgb26:G", "r2:1", "green", [ "v0" ] ],
-    [ "rgb26:B", "r3:1", "green", [ "v0" ] ],
+    [ "rgb26:B", "r3:1", "blue", [ "v0" ] ],
     [ "rgb26:COM", "pico:GND.4", "black", [ "v0" ] ],
     [ "r1:2", "pico:GP13", "red", [ "h0", "v94.8" ] ],
     [ "r2:2", "pico:GP11", "green", [ "h0", "v66" ] ],
