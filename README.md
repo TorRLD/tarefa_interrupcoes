@@ -1,6 +1,9 @@
 
 # Projeto de Exibição com WS2812 e LED RGB
 
+## Link do vídeo tutorial:
+[Link do Vídeo Tutorial](https://www.youtube.com/watch?v=OcDYS3tvU-k)
+
 ## Descrição
 
 Projeto desenvolvido para o curso de capacitação Embarcatech, onde demonstra o uso do Raspberry Pi Pico (ou Pico W) 
@@ -93,8 +96,7 @@ O código é dividido em partes:
   O loop principal monitora se há atualizações do dígito e mantém o sistema responsivo, sem bloquear a execução com delays tradicionais.
 
 
-  ## Link do vídeo tutorial:
-[Flex Grid](https://www.youtube.com/watch?v=OcDYS3tvU-k)
+
 
 
 ## Licença
