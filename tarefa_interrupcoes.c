@@ -32,8 +32,8 @@
 #define INTERVALO_PISCA_LED_MS 100      // Intervalo de 100 ms (5 Hz de toggle)
 
 #define COR_WS2812_R      0   // Intensidade do vermelho na matriz
-#define COR_WS2812_G      0   // Intensidade do verde na matriz
-#define COR_WS2812_B      200 // Intensidade do azul na matriz
+#define COR_WS2812_G      0  // Intensidade do verde na matriz 
+#define COR_WS2812_B      100 // Intensidade do azul na matriz (APENAS AZUL)
 
 // ================================
 // VARIÁVEIS GLOBAIS
