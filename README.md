@@ -34,20 +34,21 @@ com o SDK Pico para implementar as seguintes funcionalidades:
 
 Para clonar este repositório, siga os passos abaixo:
 
-1. Abra o terminal ou o prompt de comando.
-2. Execute o comando de clone (substitua `seu-usuario` e `nome-repositorio` pelos dados correspondentes):
+1. Recomendo criar uma pasta na raiz (C:\ em Windows) ou na home do linux (~)
+2. Abra o terminal ou o prompt de comando.
+3. Execute o comando de clone:
 
    ```bash
-   git clone https://github.com/seu-usuario/nome-repositorio.git
+   git clone https://github.com/TorRLD/tarefa_interrupcoes.git
    ```
 
-3. Navegue até a pasta do projeto clonado:
+4. Navegue até a pasta do projeto clonado:
 
    ```bash
-   cd nome-repositorio
+   cd tarefa_interrupcoes
    ```
 
-4. Abra o projeto no VS Code:
+5. Abra o projeto no VS Code:
 
    ```bash
    code .
