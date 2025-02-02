@@ -92,6 +92,11 @@ O código é dividido em partes:
 - **Loop Principal:**  
   O loop principal monitora se há atualizações do dígito e mantém o sistema responsivo, sem bloquear a execução com delays tradicionais.
 
+
+  ## Link do vídeo tutorial:
+[Flex Grid](https://www.youtube.com/watch?v=OcDYS3tvU-k)
+
+
 ## Licença
 
 Este projeto é licenciado sob a [MIT License](LICENSE).
