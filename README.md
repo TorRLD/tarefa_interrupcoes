@@ -98,9 +98,4 @@ Este projeto é licenciado sob a [MIT License](LICENSE).
 
 ## Contato
 
-Desenvolvido por [Heitor Lemos]  
-
-
----
-
-Basta salvar esse conteúdo em um arquivo chamado **README.md** na raiz do seu repositório. Esse arquivo fornece uma visão geral clara do projeto, explica como clonar o repositório, estrutura do projeto, funcionamento do código, e demais informações úteis para usuários e desenvolvedores.
+Desenvolvido por Heitor Lemos
