@@ -161,11 +161,9 @@ void definir_leds(uint8_t r, uint8_t g, uint8_t b) {
  */
 void atualizar_buffer_com_digito(int digito) {
     for (int linha = 0; linha < 5; linha++) {
-        // Inverte verticalmente para corrigir a orientação (se necessário)
         int linha_fisica = 4 - linha;
         for (int coluna = 0; coluna < 5; coluna++) {
             int indice;
-            // Se a linha física estiver invertida na fiação, invertemos a ordem das colunas
             if (linha_fisica == 0 || linha_fisica == 2) {
                 indice = linha_fisica * 5 + (4 - coluna);
             } else {
